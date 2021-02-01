@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body {
+  background: #f8efd4;
+  font-family: 'Recursive',Georgia, 'Times New Roman', Times, serif;
+}
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 3px 2px -2px rgba(0,0,0,.1);
+  padding: 0.6rem;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+.app__header__name {
+  font-family: 'Cookie',serif, 'Times New Roman', Times, sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  display: flex;
+  font-size: 28px;
+  font-weight: normal;
+  padding-left: 3rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  object-fit: contain;
+  color: #e23e57;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__logincontainer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 600;
+}
+.app__posts {
+  padding: 20px;
+}
